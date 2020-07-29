@@ -7,5 +7,5 @@ rm -rf hardware/qcom/bootctrl
 ALLOW_MISSING_DEPENDENCIES=true
 lunch omni_tissot-userdebug
 mka recoveryimage
-  ZIP=$(ls out/target/product/tissot/PitchBlack*.zip)
+  ZIP=$(ls out/target/product/tissot/PBRP*.zip)
 curl https://bashupload.com/$ZIP --data-binary @$ZIP
