@@ -82,5 +82,5 @@ TW_INCLUDE_NTFS_3G := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
-TW_USE_TOOLBOX := true
+TW_FORCE_USE_BUSYBOX := true
 TW_INCLUDE_REPACKTOOLS := true
