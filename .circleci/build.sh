@@ -3,8 +3,6 @@ repo init -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b andro
 repo sync --force-sync
 git clone https://github.com/Takeshiro04/pbrp_device_xiaomi_tissot device/xiaomi/tissot/
 rm -rf hardware/qcom/bootctrl
-rm -rf bootable/recovery
-git clone https://github.com/Takeshiro04/android_bootable_recovery.git bootable/recovery
 . build/envsetup.sh
 lunch omni_tissot-eng
 mka recoveryimage
